@@ -12,11 +12,11 @@ body{
     height: 100vh;
 }
 .container{
-    max-width: 600px;
+    max-width: 550px;
     padding: 20px;
     margin: 20px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 h2{
@@ -39,6 +39,7 @@ h2{
 }
 .input-box label{
     width: 95%;
+    font-weight: bold;
     margin: 5px 0;
 }
 .input-box input{
@@ -52,4 +53,28 @@ h2{
 .input-box input:is(:focus){
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
-
+.gsection p{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.gsection label{
+    margin-right: 15px;
+}
+.button{
+    margin-top: 20px;
+}
+.button button{
+    color: white;
+    font-size: 16px;
+    height: 30px;
+    width: 80px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.button .submit{
+    background-image: linear-gradient(to bottom right, #667EEA, #764DA4);
+}
+.button .cancel{
+    background-image: linear-gradient(to bottom right, #f82b2b, #c90000);
+}
